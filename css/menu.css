@@ -1,4 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 h1{
     color: blue;
-    
+    font-size: 3vw;
+ }
+
+.menu{
+    display: inline-block;
+    padding-right: 20vw;
+    padding-top: 3vh;
 }
+
+/* Estilo para el logo */
+.logo_menu{
+width: 5vw;
+right: auto;
+border-radius: 50%;
+box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw rgb(219, 211, 90);
+}
+header{
+/* background: linear-gradient(rgba(231, 159, 4), rgb(212, 105, 105)); */
+background: linear-gradient(to right, rgba(244, 248, 4, 0.6), rgb(182, 44, 44, 0.8));
+height: 15vh;
+font-size: 2vw;
+text-align: end;
+border-radius: 0% 0% 20% 0%;
+}
+
+.menu_vinculos{
+text-decoration: none;
+color: brown;
+padding-right: 1vw;
+}
+
